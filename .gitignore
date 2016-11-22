@@ -14,3 +14,5 @@ settings/
 cute/
 *.xml
 *.prefs
+SConstruct
+SConscript
