@@ -16,7 +16,7 @@ private:
 		sf::RenderWindow window(sf::VideoMode(800, 600), "SFML works!",sf::Style::Default,settings);
 		sf::CircleShape shape{100.f};
 		sf::CircleShape shape2{50.f};
-		shape2.setFillColor(sf::Color::Red);
+		shape2.setFillColor(sf::Color::Blue);
 		shape.setFillColor(sf::Color::Green);
 		bool mouseClicked{};
 
