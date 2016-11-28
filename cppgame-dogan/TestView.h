@@ -3,6 +3,7 @@
 
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
+#include <iostream>
 
 class TestView {
 public:
@@ -19,6 +20,10 @@ private:
 		shape2.setFillColor(sf::Color::Blue);
 		shape.setFillColor(sf::Color::Green);
 		bool mouseClicked{};
+
+		if(sf::Shader::isAvailable()){
+
+		}
 
 		while (window.isOpen())
 		{
